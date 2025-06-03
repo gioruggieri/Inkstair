@@ -1,0 +1,28 @@
+
+[project]
+name = "manuscript-analyzer-backend"
+version = "0.1.0"
+description = "Backend API per l'analisi di manoscritti con FastAPI e LangGraph"
+requires-python = ">=3.10"
+
+dependencies = [
+    "fastapi",
+    "uvicorn",
+    "langchain",
+    "langchain-core",
+    "langchain-community",
+    "langchain-ollama",
+    "langgraph",
+    "sentence-transformers",
+    "faiss-cpu",
+    "language-tool-python",
+    "textblob",
+    "pymupdf",
+    "numpy",
+    "python-multipart>=0.0.20",
+    "reportlab>=4.4.1",
+    "streamlit>=1.45.1",
+    "langchain-openai>=0.3.18",
+    "qdrant-client[fastembed]>=1.14.2",
+]
+

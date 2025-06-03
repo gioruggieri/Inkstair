@@ -1,0 +1,44 @@
+# === BACKEND (Python) ===
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.log
+
+# === FRONTEND (Node.js) ===
+node_modules/
+dist/
+build/
+
+# === ENV / LOCK FILES ===
+.env
+uv.lock
+
+# === OS / EDITOR SPECIFIC ===
+.DS_Store
+Thumbs.db
+.qodo/
+.vscode/
+
+# === DOCUMENTAZIONE / OUTPUT ===
+*.pdf
+*.docx
+*.md
+*.html
+
+# === TEMPORARY FILES ===
+*.tmp
+*.swp
+*.bak
+
+# === TAILWIND & POSTCSS (build output if any) ===
+*.css.map
+
+# === Ignore old or unused folders ===
+old/
+Nuova cartella/
+
+backend/mainv0.py
+backend/manuscript_analysis.py
+backend/pdf_analyzer/editoriale_completov0.py
+backend/pdf_analyzer/app.py
