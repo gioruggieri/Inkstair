@@ -25,6 +25,7 @@ Thumbs.db
 *.docx
 *.md
 *.html
+!Fattibilità tecnica _ Modelli AI.docx
 
 # === TEMPORARY FILES ===
 *.tmp
