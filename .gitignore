@@ -30,7 +30,7 @@ Thumbs.db
 *.tmp
 *.swp
 *.bak
-
+!Inkstair_Presentazione completa.pdf
 # === TAILWIND & POSTCSS (build output if any) ===
 *.css.map
 
